@@ -10,7 +10,7 @@ $(function(){
   });
 
   $('#nav-photo').click(function () {
-    var photo_top = $('#photo').offset().top + 110;
+    var photo_top = $('#photo').offset().top + 60;
     $('html,body').animate({scrollTop:photo_top},700);
   });
 
